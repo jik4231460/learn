@@ -280,6 +280,3 @@ refreshLockTimeout	60秒	类型为BOTH/REMOTE的缓存刷新时，同时只会�
 @CachePenetrationProtect注解：
 
 当缓存访问未命中的情况下，对并发进行的加载行为进行保护。 当前版本实现的是单JVM内的保护，即同一个JVM中同一个key只有一个线程去加载，其它线程等待结果。
-————————————————
-版权声明：本文为CSDN博主「伪学霸1」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/m0_37637141/article/details/82417230
